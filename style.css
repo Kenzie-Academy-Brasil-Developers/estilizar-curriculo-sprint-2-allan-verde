@@ -1,3 +1,13 @@
+html {
+	background-color: #f3f3f3;
+}
+
+body {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .clear {
 	clear: both;
 }
@@ -10,6 +20,8 @@
 
 #name {
 	float: left;
+	margin-left: 30px;
+	margin-top: 20px
 }
 
 #contactDetails {
@@ -24,4 +36,91 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+#cv {
+	margin: 80px 40px;
+}
+
+.diferente { /* Adicionando borda superior amarelo */
+	border-top: 2px solid #cf8a05;
+}
+
+.igual { /* Adicionando borda superior cinza e diminuindo a largura do bloco */
+	border-top: 1px solid #dedede;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.borda {
+	padding: 15px 0 0 0;
+}
+
+img {
+	border-radius: 50%;
+	width: 80px;
+	margin: 20px 0 30px 40px;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+}
+.subDetails {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+li {
+	list-style: none;
+}
+
+#mainArea p, #mainArea h2, #contactDetails, .keySkills {
+	color: #444444;
+}
+
+#mainArea h1 {
+	color: #cf8a05;
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.semMargin {
+	margin: 0 0 16px 0;
+}
+
+h1 {
+	font-family: Rokkitt;
+}
+
+a { /* removendo estilo dos links */
+	text-decoration: none;
+	color: inherit;
+}
+
+#mainArea h2 {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: Rokkitt;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.keySkills { /* Alinhando os itens em tres colunas */
+	column-count: 3;
+	margin-bottom: 20px;
 }
